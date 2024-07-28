@@ -1,0 +1,101 @@
+body {
+    background-color: #fff4e6;
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center; /* add this line */
+}
+
+.content {
+    flex: 1;
+    text-align: center; /* add this line */
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4b3832;
+    background-image: url('NavBar-BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid #4b3832;
+    text-align: center; /* add this line */
+}
+
+li {
+    flex: 1;
+    text-align: center; /* add this line */
+}
+
+li a {
+    display: block;
+    color: #fff4e6;
+    text-align: center;
+    padding: 24px 0;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero-content ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
+    text-align: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer {
+    background-color: #3c2f2f;
+    color: #be9b7b;
+    text-align: center;
+    padding: 10px;
+}
